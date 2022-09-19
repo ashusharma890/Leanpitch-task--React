@@ -1,0 +1,248 @@
+@import '~antd/dist/antd.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ant-menu-item-selected {
+    background-color: yellow !important;
+    color: white !important;
+  }
+.ant-menu {
+    background-color: transparent !important;
+    color: white !important;
+    font-weight: bolder;
+  }
+
+
+.app{
+    overflow: hidden;
+    background-image: url(/public/images/bg.jpeg); 
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+.test{
+    border: 5px solid yellow;
+    height: fit-content;
+    margin-left: 10rem;
+    background: rgba(0, 0, 0, 0.5);
+    /* width:84.5vw; */
+}
+
+.topbar{
+    align-items: flex-end;
+}
+
+.subs{
+    background-color: red;
+}
+
+.Navbar{
+    flex: 0.2;
+}
+
+.nav-container{
+    position:absolute;
+    left: 0;
+    margin: 10px;
+    height: 100vh;
+    margin: 0px;
+}
+
+.menu-control-container{
+    display: none !important;
+    position: absolute !important;
+    right: 10px !important;
+    /* top: 25px !important; */
+    font-size: 0.7rem !important;
+    /* background-color: var(--bgSecondary) !important; */
+    border: none !important;
+}
+
+.heading{
+    color: red;
+}
+
+.matter-heading{
+    display: flex;
+    justify-content:center;
+}
+
+.matter-head{
+    margin-top: 3rem;
+    color: yellow;
+    text-decoration: solid;
+    font-weight: bolder;
+}
+
+.arrow{
+    margin-left: 32rem;
+}
+
+.matter-imgs{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+}
+
+.abt{
+    margin-top: 30rem;
+    /* margin-left: 9.5rem; */
+    background-color: black;
+    box-sizing: border-box;
+    padding-left: 3rem;
+}
+
+.abbtn{
+    margin: 10px 10px;  
+}
+
+.aboutus{
+    margin-top: 1rem;
+    display:block;
+    color: white;
+    display: flex;
+    justify-content:flex-start;
+}
+
+.labimg{
+    display: flex;
+    justify-content: right;
+    margin-top: -28rem;
+}
+
+.trainings{
+    /* margin-left: 10rem; */
+    /* margin-top: 1rem; */
+    flex-wrap: wrap !important;
+    gap: 1rem;
+}
+
+.t2{
+    /* margin-left: 11.8rem; */
+    /* margin-top: -1rem; */
+    margin-bottom: 7.5rem;
+}
+
+.webinar{
+  margin-top: 2rem;
+  /* margin-left: 11rem; */
+  margin-bottom: 25rem;
+}
+
+.meetimg{
+    margin-top: 2rem;
+    margin-bottom: 32rem;
+}
+
+.videos{
+  margin-top: 3rem;
+  /* margin-left: 5rem; */
+  height: 250px;
+  flex-wrap: wrap !important;
+  gap: 1rem;
+  margin-bottom: 21.5rem;
+}
+
+.home{
+    margin-top: 2rem;
+    margin-left: 12rem;
+    font-weight: bolder;
+    font-size: larger;
+    margin-bottom: 20rem;
+}
+
+.conft{
+    margin-top: 2rem;
+    margin-left: 13rem;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.confb{
+    margin-bottom: 14rem;
+}
+
+.pms{
+    margin-top: 3rem;
+    /* margin-left: 10rem; */
+    height: 250px;
+    margin-bottom: 21.5rem;
+    flex-wrap: wrap !important;
+    gap: 1rem;
+}
+
+
+.pds{
+    margin-top: 3rem;
+    /* margin-left: 10rem; */
+    margin-bottom: 26.5rem;
+     flex-wrap: wrap !important;
+    gap: 1rem;
+}
+
+.msg{
+    margin-top: 8rem;
+    margin-left: -9.5rem;
+}
+
+.bas{
+    margin-bottom: 40rem;
+}
+
+.btns{
+    margin-left: -1rem;
+}
+
+@media screen and (max-width:800px){
+    .app{
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    .Navbar{
+        flex: 1;
+    }
+
+    .nav-container{
+        height: 8vh;
+        position:fixed;
+        width: 100%;
+        z-index: 100;
+        background:transparent
+    }
+  
+    .menu-control-container{
+        display: block !important;
+    }
+
+}
+
+@media screen and (min-width: 1040px) and (max-width: 1440px) {
+    .conft{
+        margin-left: 20rem;
+    }
+
+    .heading{
+        margin-left: 6rem;
+    }
+
+    .aboutus{
+        margin-left: 6rem;
+    }
+
+    .btns{
+        margin-left: 5rem;
+    }
+
+    .labimg{
+        margin-right: 3rem;
+        margin-top: -30rem;
+    }
+}
+
